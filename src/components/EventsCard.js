@@ -26,9 +26,11 @@ const EventsCard = ({title, imageUrl, body,button,location,date,time}) => {
         </div>
 
         <div id="ex1" class="modal">
-        <label>Location: </label>{location}<br />
-        <label>Date: </label>{date}<br />
-        <label>Time: </label>{time}<br />
+            <h3>
+                <label>Location: </label>{location}<br />
+                <label>Date: </label>{date}<br />
+                <label>Time: </label>{time}<br />
+            </h3>
         </div>
 
         </div>
