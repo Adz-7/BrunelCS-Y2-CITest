@@ -8,6 +8,54 @@ import EventsCard from "./components/EventsCard"
 import EventsCardSct from "./components/EventsCardSct"
 
 export default class Events extends React.Component { 
+  constructor(props) {
+    super(props)
+
+    this.state = {
+        organisatoin: "",
+        location: "",
+        fee: "",
+        startdate: "",
+
+
+    }
+    this.handleSubmit=this.handleSubmit.bind(this)
+}
+
+firsthandler = (event) => {
+    this.setState({
+        organisation: event.target.value
+    })
+}
+lasthandler = (event) => {
+    this.setState({
+        location: event.target.value
+    })
+}
+passwordhandler = (event) => {
+    this.setState({
+        fee: event.target.value
+    })
+}
+
+genderhandler = (event) => {
+    this.setState({
+        startdate: event.target.value
+    })
+}
+
+handleSubmit = (event) => {
+    alert(`${this.state.organisation} ${this.state.location}  Registered Successfully !!!!`)
+    console.log(this.state);
+    this.setState({
+        organisation: "",
+        location: "",
+        fee: '',
+        startdate: "",
+    })
+ event.preventDefault()
+    
+}
       render() {
         return (
           <events>
@@ -46,6 +94,22 @@ export default class Events extends React.Component {
              modaltext = "Some Text"
             />
         </div>
+        <div>
+
+<form onSubmit={this.handleSubmit}>
+    <h1>Event Registration</h1>
+    <label>Organisation :</label> <input type="text" value={this.state.organisation} onChange={this.firsthandler} placeholder="Organisation..." /><br />
+    <label>Location :</label> <input type="text" value={this.state.location} onChange={this.lasthandler} placeholder="Location..." /><br />
+    <label>Fee :</label> <input type="fee" value={this.state.fee} onChange={this.passwordhandler} placeholder="Fee..." /><br />
+    <label>Start Date :</label><select onChange={this.genderhandler} defaultValue="Start Date">
+        <option defaultValue>Select StartDate</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select><br />
+    <input type="submit" value="Submit" />
+</form>
+
+</div>
     )
           </events>
         );
