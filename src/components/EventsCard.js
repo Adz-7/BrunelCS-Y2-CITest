@@ -2,7 +2,7 @@ import React from 'react'
 
 
 
-const EventsCard = ({title, imageUrl, body,button}) => {
+const EventsCard = ({title, imageUrl, body,button,modaltext}) => {
     return (
      
         <div className = "eventcard-container">
@@ -18,12 +18,18 @@ const EventsCard = ({title, imageUrl, body,button}) => {
             </div>
             </div>
             <div className = "eventbutn">
-        <button>
-            <a>
-                {button}
-            </a>
-        </button>
+            <button>
+                <a href="#ex1" rel="modal:open">
+                    {button}
+                </a>
+            </button>
         </div>
+
+        <div id="ex1" class="modal">
+        <p>{modaltext}</p>
+        <a href="#" rel="modal:close">Close</a>
+        </div>
+
         </div>
    
     )
