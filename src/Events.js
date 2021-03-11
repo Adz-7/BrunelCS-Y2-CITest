@@ -29,8 +29,7 @@ export default class Events extends React.Component {
             <EventsCard
             title = 'Swim Serpentine'
             imageUrl= 'https://images.unsplash.com/photo-1593113630400-ea4288922497?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'
-            body = 'Swim Serpentine is a one-day open water swimming festival staged in the heart of London. Thousands of swimmers will participate in events that include. The One-Mile Swim takes place on the same course as the London 2012 Marathon Swimming Olympic event, with one full lap around the Serpentine making up the one-mile swim.
-            All your needs are catered for with heated changing rooms, dunk zone, pontoon start and finish, full water safety crew, hot tubs and exhibition area..'
+            body = 'Swim Serpentine is a one-day open water swimming festival staged in the heart of London. Thousands of swimmers will participate in events that include. The One-Mile Swim takes place on the same course as the London 2012 Marathon Swimming Olympic event, with one full lap around the Serpentine making up the one-mile swim. All your needs are catered for with heated changing rooms, dunk zone, pontoon start and finish, full water safety crew, hot tubs and exhibition area.'
             button = "Learn More"
             />
             <EventsCard
