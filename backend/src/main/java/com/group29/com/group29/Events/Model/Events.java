@@ -10,6 +10,8 @@ import javax.persistence.Table;
 import java.util.Date;
 import java.time.LocalTime;
 import javax.persistence.GenerationType;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Size;
 
 import org.hibernate.annotations.GenericGenerator;
 
@@ -21,24 +23,31 @@ public class Events {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long eventID;
 
+    @NotBlank
     private Long userID;
     
-    @JsonProperty
+    @NotBlank
+    @Size(max = 50)
     private String Organisation;
     
-    @JsonProperty
+    @NotBlank
+    @Size(max = 70)
     private String Location;
 
-    @JsonProperty
+    @NotBlank
     private String Details;
 
-    @JsonProperty
+    @NotBlank
+    @Size(max = 10)
+    // Date Format DD/MM/YYYY (incld. slashes)
     private String Date;
     
-    @JsonProperty
+    @NotBlank
+    @Size(max = 8)
+    // XX:XX am or pm 
     private String Time;
     
-    @JsonProperty
+    @NotBlank
     private String EventImage;
 
     public Events() {
