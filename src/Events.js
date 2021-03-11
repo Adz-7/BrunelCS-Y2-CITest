@@ -1,4 +1,4 @@
-import React from 'react'; 
+import React,{useState} from 'react'; 
 import  "./components/Nav"
 import  "./components/Footer"
 import "./styles/App.css"
@@ -6,8 +6,10 @@ import  './components/LandingPage';
 import  "./styles/MainSearch.css"
 import EventsCard from "./components/EventsCard"
 import EventsCardSct from "./components/EventsCardSct"
+import Calendar from 'react-calendar';
 
 export default class Events extends React.Component { 
+
   constructor(props) {
     super(props)
 
@@ -15,43 +17,52 @@ export default class Events extends React.Component {
         organisatoin: "",
         location: "",
         fee: "",
-        startdate: "",
+        date: "",
+        time: "",
 
 
     }
+    
+
     this.handleSubmit=this.handleSubmit.bind(this)
 }
 
-firsthandler = (event) => {
+organisationhandler = (event) => {
     this.setState({
         organisation: event.target.value
     })
 }
-lasthandler = (event) => {
+locationhandler = (event) => {
     this.setState({
         location: event.target.value
     })
 }
-passwordhandler = (event) => {
+feehandler = (event) => {
     this.setState({
         fee: event.target.value
     })
 }
 
-genderhandler = (event) => {
+datehandler = (event) => {
     this.setState({
-        startdate: event.target.value
+        date: event.target.value
     })
 }
 
+timehandler = (event) => {
+  this.setState({
+      time: event.target.value
+  })
+}
+
 handleSubmit = (event) => {
-    alert(`${this.state.organisation} ${this.state.location}  Registered Successfully !!!!`)
+    alert(`${this.state.organisation} ${this.state.location}  Event Created Successfully !`)
     console.log(this.state);
     this.setState({
         organisation: "",
         location: "",
         fee: '',
-        startdate: "",
+        date: "",
     })
  event.preventDefault()
     
@@ -98,19 +109,20 @@ handleSubmit = (event) => {
 
 <form onSubmit={this.handleSubmit}>
     <h1>Event Registration</h1>
-    <label>Organisation :</label> <input type="text" value={this.state.organisation} onChange={this.firsthandler} placeholder="Organisation..." /><br />
-    <label>Location :</label> <input type="text" value={this.state.location} onChange={this.lasthandler} placeholder="Location..." /><br />
-    <label>Fee :</label> <input type="fee" value={this.state.fee} onChange={this.passwordhandler} placeholder="Fee..." /><br />
-    <label>Start Date :</label><select onChange={this.genderhandler} defaultValue="Start Date">
-        <option defaultValue>Select StartDate</option>
-        <option value="male">Male</option>
-        <option value="female">Female</option>
-    </select><br />
+    <label>Organisation :</label> <input type="text" value={this.state.organisation} onChange={this.organisationthandler} placeholder="Organisation..." /><br />
+    <label>Location :</label> <input type="text" value={this.state.location} onChange={this.locationhandler} placeholder="Location..." /><br />
+    <label>Fee :</label> <input type="fee" value={this.state.fee} onChange={this.feehandler} placeholder="Fee..." /><br />
+    <label>Date :</label> <input type="date" value={this.state.Date} onChange={this.Datehandler} placeholder="Date" /><br />
+    <label>Time :</label> <input type="time" value={this.state.Time} onChange={this.Datehandler} placeholder="Time" /><br />
+ 
+        
+<br />
+    
     <input type="submit" value="Submit" />
 </form>
 
 </div>
-    )
+    
           </events>
         );
       }
