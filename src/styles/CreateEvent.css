@@ -7,3 +7,22 @@
 .submitbutton{
 color: black;
 }
+
+.hero-2{
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-left: 4%;
+    margin-right: -15%;
+    height: 55vh;
+    width:90vw;
+    border-radius: 4px;
+    box-shadow: 12px 12px 12px rgba(182, 182, 182, 0.24);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+ 
+}

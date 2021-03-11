@@ -1,8 +1,10 @@
 import React from 'react'; 
-import Nav from "./components/Nav"
-import Footer from "./components/Footer"
+import  "./components/Nav"
+import  "./components/Footer"
 import "./styles/App.css"
-import LandingPage from './components/LandingPage';
+import  './components/LandingPage';
+import  "./styles/MainSearch.css"
+
 
 export default class CreateEvent extends React.Component {
     state = {
@@ -11,6 +13,7 @@ export default class CreateEvent extends React.Component {
         username: "",
         email: "",
         password: ""
+        
       };
     
       change = e => {
@@ -28,24 +31,27 @@ export default class CreateEvent extends React.Component {
       render() {
         return (
           <createvent>
-            <input
-              name="firstName"
-              placeholder="First name"
-              value={this.state.firstName}
+            <div >
+            <img src="img/event.png" alt="Eventimg" className="hero-2" />
+            </div>
+            <input className="Looking for"
+              name="lookingfor" 
+              placeholder="Looking for"
+              value={this.state.lookingfor}
               onChange={e => this.change(e)}
             />
             <br />
             <input
-              name="lastName"
-              placeholder="Last name"
-              value={this.state.lastName}
+              name="location"
+              placeholder="Location"
+              value={this.state.Location}
               onChange={e => this.change(e)}
             />
             <br />
             <input
-              name="username"
-              placeholder="Username"
-              value={this.state.username}
+              name="date"
+              placeholder="Date"
+              value={this.state.Date}
               onChange={e => this.change(e)}
             />
             <br />
@@ -65,6 +71,8 @@ export default class CreateEvent extends React.Component {
             />
               <br />
         <button onClick={e => this.onSubmit(e)}>Submit</button>
+        {this.state.value}
+        
           </createvent>
         );
       }
