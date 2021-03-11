@@ -18,7 +18,7 @@ const Nav = () => {
               <li className="search-button">Search</li>
               <li className="messages-button">Messages</li>
               <li className="login-button">Login</li>
-              <li><Link to ="/createevent" className="createevent-button">Create Event</Link></li>
+              <li><Link to ="/events" className="events-button">Events</Link></li>
               <li id="no-border"><button className="signup-btn">Sign Up</button></li>
           </ul>
           <i id="burger-btn" onClick={() => setOpen(!open)}  class={open ? `fas fa-times ` : `fas fa-bars`}></i>
