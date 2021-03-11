@@ -2,7 +2,7 @@ import React from 'react'
 
 
 
-const EventsCard = ({title, imageUrl, body,button,modaltext}) => {
+const EventsCard = ({title, imageUrl, body,button,location,date,time}) => {
     return (
      
         <div className = "eventcard-container">
@@ -26,8 +26,9 @@ const EventsCard = ({title, imageUrl, body,button,modaltext}) => {
         </div>
 
         <div id="ex1" class="modal">
-        <p>{modaltext}</p>
-        <a href="#" rel="modal:close">Close</a>
+        <label>Location: </label>{location}<br />
+        <label>Date: </label>{date}<br />
+        <label>Time: </label>{time}<br />
         </div>
 
         </div>
