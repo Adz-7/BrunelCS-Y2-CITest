@@ -10,7 +10,9 @@ on:
 
 defaults:
   run:
-    working-directory: Adam's Backend/
+    working-directory: backend/
+    
+    #Changed folder to backend from Adam's Backend
 
 # Workflow Jobs
 jobs:
