@@ -1,0 +1,336 @@
+.hero {
+  margin-top: 4%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: -10%;
+  height: 35vh;
+  width:90vw;
+  border-radius: 4px;
+  box-shadow: 12px 12px 12px rgba(182, 182, 182, 0.24);
+  background-image: url("/src/img/finalbg1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.hero-button {
+border-radius: 4px;
+background-color: #FF468C;
+border: none;
+color: #ffffff;
+font-weight: 500;
+text-align: center;
+font-size: 15px;
+padding:5px;
+height: 2.8rem;
+width: 16rem;
+transition: 0.7s;
+opacity: 0.70;
+white-space: nowrap;
+font-family: "Ubuntu";
+margin-left: 1%;
+z-index: 0;
+}
+
+.hero-button:hover{
+  opacity: 1;
+  background-color: #fff;
+  color: #FF468C;
+  transform: scale(1.1);
+}
+
+input {
+border-radius:6px;
+border: none;
+width: 26rem;
+height: 2.8rem;
+}
+.search-text {
+  color: white;
+  font-family: "Ubuntu";
+  margin-bottom: 5%;
+  margin-right: -11%;
+  font-size: 14px;
+}
+
+
+@media all and (max-width:1290px) 
+{ 
+  .search-text {
+    color: white;
+    font-family: "Ubuntu";
+    margin-bottom: 5%;
+    margin-right: -13%;
+    font-size: 13px;
+  }
+
+  input {
+    border-radius:6px;
+    border: none;
+    width: 24rem;
+    height: 2.5rem;
+    }
+    .hero-button {
+      border-radius: 4px;
+      background-color: #FF468C;
+      border: none;
+      color: #ffffff;
+      font-weight: 400;
+      text-align: center;
+      font-size: 15px;
+      padding:5px;
+      height: 2.4rem;
+      width: 12rem;
+      transition: 0.7s;
+      opacity: 0.70;
+      white-space: nowrap;
+      font-family: "Ubuntu";
+      margin-left: 1%;
+      }
+}
+
+@media all and (max-width:986px) 
+{
+  .hero {
+  
+    height: 30vh;
+    width:90vw;
+  }
+  .search-text {
+    color: white;
+    font-family: "Ubuntu";
+    margin-bottom: 6%;
+    margin-right: -16%;
+    font-size: 12px;
+  }
+
+  input {
+    border-radius:6px;
+    border: none;
+    width: 22rem;
+    height: 2.4rem;
+    }
+    .hero-button {
+      border-radius: 4px;
+      background-color: #FF468C;
+      border: none;
+      color: #ffffff;
+      font-weight: 500;
+      text-align: center;
+      font-size: 13px;
+      padding:5px;
+      height: 2.4rem;
+      width: 9rem;
+      transition: 0.7s;
+      opacity: 0.70;
+      white-space: nowrap;
+      font-family: "Ubuntu";
+      margin-left: 1%;
+      }
+}
+@media all and (max-width: 768px)
+ {
+
+  .hero {
+  
+    height: 25vh;
+    width:90vw;
+  }
+  .search-text {
+    color: white;
+    font-family: "Ubuntu";
+    margin-bottom: 7.5%;
+    margin-right: -18%;
+    font-size: 10px;
+  }
+
+  input {
+    border-radius:6px;
+    border: none;
+    width: 16rem;
+    height: 2.2rem;
+    font-size: 12px;
+    }
+    .hero-button {
+      border-radius: 4px;
+      background-color: #FF468C;
+      border: none;
+      color: #ffffff;
+      font-weight: 400;
+      text-align: center;
+      font-size: 10px;
+      padding:5px;
+      height: 2.2rem;
+      width: 7rem;
+      transition: 0.7s;
+      opacity: 0.70;
+      white-space: nowrap;
+      font-family: "Ubuntu";
+      margin-left: 1%;
+      }
+ }
+ @media all and (max-width: 610px)
+ {
+  .hero {
+  
+    height:20vh;
+    width:90vw;
+  }
+  .search-text {
+    color: white;
+    font-family: "Ubuntu";
+    margin-bottom: 9%;
+    margin-right: -22%;
+    font-size: 10px;
+  }
+
+  input {
+    border-radius:6px;
+    border: none;
+    width: 14rem;
+    height: 2.1rem;
+    font-size: 12px;
+    }
+    .hero-button {
+      border-radius: 4px;
+      background-color: #FF468C;
+      border: none;
+      color: #ffffff;
+      font-weight: 400;
+      text-align: center;
+      font-size: 9px;
+      padding:5px;
+      height: 2.1rem;
+      width: 6rem;
+      transition: 0.7s;
+      opacity: 0.70;
+      white-space: nowrap;
+      font-family: "Ubuntu";
+      margin-left: 1%;
+      }
+ }
+ @media all and (max-width: 507px)
+{
+  .hero {
+  
+    height:20vh;
+    width:90vw;
+  }
+    .search-text {
+      color: white;
+      font-family: "Ubuntu";
+      margin-bottom: 9%;
+      margin-right: -23%;
+      font-size: 9px;
+    }
+  
+    input {
+      border-radius:6px;
+      border: none;
+      width: 13rem;
+      height: 1.9rem;
+      font-size: 11px;
+      }
+      .hero-button {
+        border-radius: 4px;
+        background-color: #FF468C;
+        border: none;
+        color: #ffffff;
+        font-weight: 400;
+        text-align: center;
+        font-size: 8px;
+        padding:5px;
+        height: 2.0rem;
+        width: 5rem;
+        transition: 0.7s;
+        opacity: 0.70;
+        white-space: nowrap;
+        font-family: "Ubuntu";
+        margin-left: 1%;
+        }
+}
+@media screen and (max-width: 450px)
+{
+  .hero {
+  
+    height:20vh;
+    width:90vw;
+  }
+  .search-text {
+    color: white;
+    font-family: "Ubuntu";
+    margin-bottom: 9%;
+    margin-right: -23%;
+    font-size: 7px;
+  }
+
+  input {
+    border-radius:6px;
+    border: none;
+    width: 9rem;
+    height: 1.3rem;
+    font-size: 10px;
+    }
+    .hero-button {
+      border-radius: 4px;
+      background-color: #FF468C;
+      border: none;
+      color: #ffffff;
+      font-weight: 400;
+      text-align: center;
+      font-size: 6px;
+      padding:5px;
+      height: 1.3rem;
+      width: 4rem;
+      transition: 0.7s;
+      opacity: 0.70;
+      white-space: nowrap;
+      font-family: "Ubuntu";
+      margin-left: 1%;
+      }
+}
+@media screen and (max-width: 337px)
+{
+  .hero {
+  
+    height:15vh;
+    width:90vw;
+  }
+  .search-text {
+  
+  color: white;
+  font-family: "Ubuntu";
+  margin-bottom: 9%;
+  margin-right: -23%;
+  font-size: 5px;
+}
+
+input {
+  border-radius:6px;
+  border: none;
+  width: 10rem;
+  height: 1.1rem;
+  font-size: 8px;
+  }
+  .hero-button {
+    border-radius: 4px;
+    background-color: #FF468C;
+    border: none;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    font-size: 5px;
+    padding:5px;
+    height: 1.1rem;
+    width: 4rem;
+    transition: 0.7s;
+    opacity: 0.70;
+    white-space: nowrap;
+    font-family: "Ubuntu";
+    margin-left: 1%;
+    }
+
+}

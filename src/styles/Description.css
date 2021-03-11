@@ -1,0 +1,345 @@
+.description {
+padding-top: 20px;
+padding-bottom: 20px;
+margin-bottom: 10%;
+margin-top: 6%;
+width: 90vw;
+margin-left: 5%;
+border-radius: 4px;
+display: flex;
+flex-direction: column;
+border: 1px  #64E1DC solid;
+border-radius: 1px;
+}
+.titleDesc {
+font-family: "Century Gothic";
+font-weight: 300;
+font-size: 34px;
+margin-left: 30%;
+}
+
+.contentContainer {
+display: flex;
+}
+
+.image {
+border-radius: 100%;
+height:18rem;
+width: 18rem;
+margin-left: 2%;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    width:60%;
+    margin-left: 3%;
+}
+.text1 {
+
+font-family: "Ubuntu";
+font-weight: 350;
+font-size: 20px;
+margin-left: 2%;
+margin-top: 3%;
+
+}
+.text2 {
+
+    font-family: "Ubuntu";
+    font-weight: 350;
+    font-size: 20px;
+    margin-left: 2%;
+    margin-top: 1%;
+    }
+
+    
+@media all and (max-width:1290px) 
+{ 
+   
+        .titleDesc {
+        font-family: "Century Gothic";
+        font-weight: 300;
+        font-size: 32px;
+        margin-left: 30%;
+        
+        }
+        
+        
+        .image {
+        border-radius: 100%;
+        height:15rem;
+        width: 15rem;
+        margin-left: 2%;
+        }
+        .text {
+            display: flex;
+            flex-direction: column;
+            width:58%;
+            margin-left: 3%;
+        }
+        .text1 {
+        
+        font-family: "Ubuntu";
+        font-weight: 350;
+        font-size: 18px;
+        margin-left: 2%;
+        margin-top: 3%;
+        
+        }
+        .text2 {
+        
+            font-family: "Ubuntu";
+            font-weight: 350;
+            font-size: 18px;
+            margin-left: 2%;
+            margin-top: 1%;
+            }
+}
+
+@media all and (max-width:986px) 
+{
+    .titleDesc {
+        font-family: "Century Gothic";
+        font-weight: 300;
+        font-size: 30px;
+        margin-left: 30%;
+        
+        }
+        
+        
+        .image {
+        border-radius: 100%;
+        height:14rem;
+        width: 14rem;
+        margin-left: 2%;
+        }
+        .text {
+            display: flex;
+            flex-direction: column;
+            width:56%;
+            margin-left: 3%;
+        }
+        .text1 {
+        
+        font-family: "Ubuntu";
+        font-weight: 350;
+        font-size: 16px;
+        margin-left: 2%;
+        margin-top: 3%;
+        
+        }
+        .text2 {
+        
+            font-family: "Ubuntu";
+            font-weight: 350;
+            font-size: 16px;
+            margin-left: 2%;
+            margin-top: 1%;
+            }
+}
+
+@media all and (max-width: 768px)
+ {
+    .titleDesc {
+        font-family: "Century Gothic";
+        font-weight: 300;
+        font-size: 25px;
+        margin-left: 30%;
+        
+        }
+        
+        
+        .image {
+        border-radius: 100%;
+        height:12rem;
+        width: 12rem;
+        margin-left: 2%;
+        }
+        .text {
+            display: flex;
+            flex-direction: column;
+            width:54%;
+            margin-left: 3%;
+        }
+        .text1 {
+        
+        font-family: "Ubuntu";
+        font-weight: 350;
+        font-size: 14px;
+        margin-left: 2%;
+        margin-top: 3%;
+        
+        }
+        .text2 {
+        
+            font-family: "Ubuntu";
+            font-weight: 350;
+            font-size: 14px;
+            margin-left: 2%;
+            margin-top: 1%;
+            }
+ }
+ @media all and (max-width: 610px)
+ {
+    .titleDesc {
+        font-family: "Century Gothic";
+        font-weight: 300;
+        font-size: 23px;
+        margin-left: 30%;
+        
+        }
+        
+        
+        .image {
+        border-radius: 100%;
+        height:11rem;
+        width: 11rem;
+        margin-left: 2%;
+        }
+        .text {
+            display: flex;
+            flex-direction: column;
+            width:53%;
+            margin-left: 3%;
+        }
+        .text1 {
+        
+        font-family: "Ubuntu";
+        font-weight: 350;
+        font-size: 13px;
+        margin-left: 2%;
+        margin-top: 3%;
+        
+        }
+        .text2 {
+        
+            font-family: "Ubuntu";
+            font-weight: 350;
+            font-size: 13px;
+            margin-left: 2%;
+            margin-top: 1%;
+            }
+ }
+ @media all and (max-width: 507px)
+{
+    .titleDesc {
+        font-family: "Century Gothic";
+        font-weight: 300;
+        font-size: 18px;
+        margin-left: 30%;
+        
+        }
+        
+        
+        .image {
+        border-radius: 100%;
+        height:8rem;
+        width: 8rem;
+        margin-left: 2%;
+        }
+        .text {
+            display: flex;
+            flex-direction: column;
+            width:52%;
+            margin-left: 3%;
+        }
+        .text1 {
+        
+        font-family: "Ubuntu";
+        font-weight: 350;
+        font-size: 10px;
+        margin-left: 2%;
+        margin-top: 3%;
+        
+        }
+        .text2 {
+        
+            font-family: "Ubuntu";
+            font-weight: 350;
+            font-size: 10px;
+            margin-left: 2%;
+            margin-top: 1%;
+            }
+}
+@media screen and (max-width: 450px)
+{
+    .titleDesc {
+        font-family: "Century Gothic";
+        font-weight: 300;
+        font-size: 15px;
+        margin-left: 30%;
+        
+        }
+        
+        
+        .image {
+        border-radius: 100%;
+        height:6rem;
+        width: 6rem;
+        margin-left: 2%;
+        }
+        .text {
+            display: flex;
+            flex-direction: column;
+            width:51%;
+            margin-left: 3%;
+        }
+        .text1 {
+        
+        font-family: "Ubuntu";
+        font-weight: 350;
+        font-size: 9px;
+        margin-left: 2%;
+        margin-top: 3%;
+        
+        }
+        .text2 {
+        
+            font-family: "Ubuntu";
+            font-weight: 350;
+            font-size: 9px;
+            margin-left: 2%;
+            margin-top: 1%;
+            }
+}
+@media screen and (max-width: 337px)
+{
+    .titleDesc {
+        font-family: "Century Gothic";
+        font-weight: 300;
+        font-size: 13px;
+        margin-left: 30%;
+        
+        }
+        
+        
+        .image {
+        border-radius: 100%;
+        height:5.5rem;
+        width: 5.5rem;
+        margin-left: 2%;
+        }
+        .text {
+            display: flex;
+            flex-direction: column;
+            width:50%;
+            margin-left: 3%;
+        }
+        .text1 {
+        
+        font-family: "Ubuntu";
+        font-weight: 350;
+        font-size: 8px;
+        margin-left: 2%;
+        margin-top: 3%;
+        
+        }
+        .text2 {
+        
+            font-family: "Ubuntu";
+            font-weight: 350;
+            font-size: 8px;
+            margin-left: 2%;
+            margin-top: 1%;
+            }
+}

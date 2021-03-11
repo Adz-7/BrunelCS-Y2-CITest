@@ -1,0 +1,106 @@
+.MoreinfoContainer{
+border: 1px #64E1DC solid;
+width: 90vw;
+margin-left: 5%;
+margin-bottom: 8%;
+margin-top: -5%;
+font-family: "Ubuntu";
+text-align: center;
+
+}
+.headline {
+font-weight: 400;
+font-size: 32px;
+}
+.information {
+text-align: justify;
+padding: 10px;
+font-weight: 300;
+font-size: 18px;
+}
+
+@media all and (max-width:1290px) 
+{ 
+    .headline {
+        font-weight: 400;
+        font-size: 31px;
+        }
+        .information {
+        font-weight: 280;
+        font-size: 17px;
+        }
+}
+@media all and (max-width:986px) 
+{
+    .headline {
+        font-weight: 400;
+        font-size: 30px;
+        }
+        .information {
+        font-weight: 270;
+        font-size: 16px;
+        }
+}
+@media all and (max-width: 768px)
+{
+    .headline {
+        font-weight: 400;
+        font-size: 30px;
+        }
+        .information {
+        font-weight: 250;
+        font-size: 16px;
+        }
+}
+
+
+@media all and (max-width: 598px)
+{
+    .headline {
+        font-weight: 400;
+        font-size: 27px;
+        }
+        .information {
+        font-weight: 240;
+        font-size: 14px;
+        }
+}
+
+@media all and (max-width: 505px)
+{
+    .headline {
+        font-weight: 400;
+        font-size: 26px;
+        }
+        .information {
+        font-weight: 230;
+        font-size: 13px;
+        }
+}
+
+
+@media all and (max-width: 430px)
+{
+    .headline {
+        font-weight: 400;
+        font-size: 25px;
+        }
+        .information {
+        font-weight: 220;
+        font-size: 12px;
+        }
+}
+
+
+@media all and (max-width: 337px)
+{
+    .headline {
+        font-weight: 400;
+        font-size: 23px;
+        }
+        .information {
+        font-weight: 200;
+        font-size: 10px;
+        }
+
+}

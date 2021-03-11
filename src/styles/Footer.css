@@ -1,0 +1,279 @@
+footer{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 6vh;
+  min-height:130px;
+  border-top: 2px solid #64E1DC;
+  overflow: hidden;
+ 
+}
+
+.copyright{
+height: 100%;
+font-family: "Ubuntu";
+font-weight: 100;
+font-size: 14px;
+white-space: nowrap;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+width: 60%;
+bottom: 0;
+left: 0;
+}
+.about-contact-buttons{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 50%;
+  margin-right: -85%;
+
+}
+.about-contact-buttons ul {
+font-family: "Ubuntu";
+font-size: 17px;
+font-weight: 600;
+white-space: nowrap;
+display: flex;
+flex-direction: row;
+cursor: pointer;
+
+}
+.about-contact-buttons ul li {
+  cursor: pointer;
+  margin-left: 15px;
+  margin-right: 20px;
+  
+  }
+
+.socials {
+margin-left: 80%;
+margin-bottom: 3%;
+margin-top: 2%;
+width: 30%;
+height: 40%;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+
+}
+.social-icons {
+  overflow: hidden;
+}
+
+.follow-us {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-family: "Ubuntu";
+  font-weight: 400;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-bottom: 5px;
+ 
+
+}
+
+.underline {
+  height: 2px;
+  width: 230px;
+  border-radius: 5px;
+  background-color:#64E1DC;
+  margin-bottom: 5px;
+}
+.icon {
+  margin: 1px 8px;
+  height: 20px;
+
+}
+.vector-shape{
+  overflow: hidden;
+  position: absolute;
+  bottom: -33px;
+  right: -3px;
+  z-index: -1;
+  width: 100vw;
+  height: 92px;
+  }
+
+  .about-button {
+    opacity: 0.7;
+    transition: 0.4s;
+    }
+  .about-button:hover {
+      opacity: 1.0;
+      color: #64E1DC;
+    }
+  .contact-button {
+    opacity: 0.7;
+    transition: 0.4s;
+      }
+  .contact-button:hover {
+    opacity: 1.0;
+    color: #64E1DC;
+    }
+  
+    .facebook-icon {
+      cursor: pointer;
+    }
+    .twitter-icon {
+      cursor: pointer;
+    }
+    .youtube-icon {
+      cursor: pointer;
+    }
+    .linkedin-icon {
+      cursor: pointer;
+    }
+    .instagram-icon {
+      cursor: pointer;
+    }
+  
+    @media all and (max-width:986px) 
+    {
+      
+        .about-contact-buttons ul {
+          font-size: 16px;
+        }
+        .copyright{
+          font-size: 13px;
+        }
+  
+        .follow-us {
+          font-size: 15px;
+        }
+        .underline {
+          width: 180px;
+        }
+    }
+    
+    @media all and (max-width: 768px)
+     {
+      .about-contact-buttons ul {
+        font-size: 15px;
+      }
+      .copyright{
+        font-size: 12px;
+      }
+
+      .follow-us {
+        font-size: 14px;
+      }
+      .underline {
+        width: 170px;
+      }
+     
+
+
+  .about-button:hover {
+    color: black;
+    }
+  
+  .contact-button:hover {
+    color: black;
+    } 
+     }
+     @media all and (max-width: 610px)
+     {
+      
+        .about-contact-buttons ul {
+          font-size: 12px;
+        }
+        .copyright{
+          font-size: 10px;
+        }
+  
+        .follow-us {
+          font-size: 14px;
+        }
+        .underline {
+          width: 170px;
+        }
+        .vector-shape {
+          bottom: -35px;
+             }
+            }
+     @media all and (max-width: 507px)
+     {
+      
+      .about-contact-buttons ul {
+        font-size: 12px;
+      }
+      .copyright{
+        font-size: 10px;
+      }
+
+      .follow-us {
+        font-size: 12px;
+      }
+      .underline {
+        width: 130px;
+      }
+      .vector-shape {
+        bottom: -37px;
+      }
+      .icon {
+        margin: 0 5px;
+        height: 20px;
+      
+      }
+          }
+    @media screen and (max-width: 450px)
+    {
+      
+      .about-contact-buttons ul {
+        font-size: 10px;
+      }
+      .copyright{
+        font-size: 9px;
+      }
+
+      .follow-us {
+        font-size: 11px;
+      }
+      .underline {
+        width: 110px;
+      }
+      .vector-shape {
+        bottom: -38px;
+      }
+      .icon {
+        margin: 0 3px;
+        height: 12px;
+      
+      }
+          }
+    
+    @media screen and (max-width: 337px)
+    {
+      
+      .about-contact-buttons ul {
+        font-size: 5px;
+      }
+      .copyright{
+        font-size: 6px;
+      }
+
+      .follow-us {
+        font-size: 7px;
+      }
+      .underline {
+        width: 90px;
+        margin-bottom: 1px;
+      }
+      .vector-shape {
+        bottom: -40px;
+      }
+      .icon {
+        margin: 0 0px;
+        height: 10px;
+      
+      }
+          }

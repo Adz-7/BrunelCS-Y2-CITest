@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+
+@import "./Nav.css";
+@import "./MainSearch.css";
+@import "./Description.css";
+@import "./Moreinfo.css";
+@import "./Cards.css";
+@import "./Footer.css";
