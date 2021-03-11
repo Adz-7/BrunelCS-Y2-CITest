@@ -1,5 +1,6 @@
-package Events.Model;
+package com.group29.com.group29.Events.Model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -22,22 +23,28 @@ public class Events {
 
     private Long userID;
     
+    @JsonProperty
     private String Organisation;
     
+    @JsonProperty
     private String Location;
 
+    @JsonProperty
     private String Details;
 
-    private Date Date;
+    @JsonProperty
+    private String Date;
     
-    private LocalTime Time;
+    @JsonProperty
+    private String Time;
     
+    @JsonProperty
     private String EventImage;
 
     public Events() {
     }
 
-    public Events(Long eventID, Long userID, String Organisation, String Location, String Details, Date Date, LocalTime Time, String EventImage) {
+    public Events(Long eventID, Long userID, String Organisation, String Location, String Details, String Date, String Time, String EventImage) {
         this.eventID = eventID;
         this.userID = userID;
         this.Organisation = Organisation;
@@ -88,19 +95,19 @@ public class Events {
         this.Details = Details;
     }
 
-    public Date getDate() {
+    public String getDate() {
         return Date;
     }
 
-    public void setDate(Date Date) {
+    public void setDate(String Date) {
         this.Date = Date;
     }
 
-    public LocalTime getTime() {
+    public String getTime() {
         return Time;
     }
 
-    public void setTime(LocalTime Time) {
+    public void setTime(String Time) {
         this.Time = Time;
     }
 
