@@ -65,7 +65,7 @@ nav{
      opacity: 0.7;
      
  }
- .form-button{
+ .createevent-button{
     text-decoration: none;
     color: black;
     letter-spacing: 2px;
@@ -144,6 +144,10 @@ nav{
     opacity: 1;
 }
 .title:hover{
+    color: #64E1DC;
+}
+.createevent-button:hover{
+    opacity: 1;
     color: #64E1DC;
 }
  
