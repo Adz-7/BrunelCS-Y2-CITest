@@ -96,12 +96,6 @@
     margin-bottom: 0.5rem;
 }
 
-.eventcard-body{
-
-
-}
-
-
 .eventbutn{
     display: flex;
     justify-content: center;
@@ -134,3 +128,54 @@ p {
     font-weight: bold;
   }
 
+  .box1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 5%;
+    margin-top: 10%;
+    width: 90vw;
+    margin-left: 4.5%;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    border: 1px  #010002 solid;
+    border-radius: 15px;
+        }
+
+.titleDescription2{
+
+font-family: "Century Gothic";
+font-weight: 350;
+font-size: 34px;
+margin-left: 40%;
+        }  
+
+.eventbutn button{
+    padding: 0.6rem;
+    background-color: #64E1DC;
+    border: none;
+    transition: 0.6s;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;  
+    font-family: "Century Gothic";
+    font-weight: 350;
+    font-size: 15px;
+    
+}
+
+.eventbutn a {
+    text-transform: uppercase;
+    color:white ;
+    font-weight: bold;
+  }
+
+.modal{
+
+font-family: "Century Gothic";
+font-weight: 350;
+font-size: 14px;
+margin-left: 40%;
+
+}
